@@ -3,3 +3,7 @@ theme: jekyll-theme-minimal
 title: Bất động sản Bcons
 
 name: Đất cảnh
+
+baseurl: ""
+
+url: "http://www.datacanh.com"
