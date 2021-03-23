@@ -7,9 +7,11 @@
 
 	<link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico" />
 
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/camera.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/component.css" />
-  	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/tooltipster.css" />
+	<style>
+		{% include camera.css %}
+		{% include component.css %}
+		{% include tooltipster.css %}
+	</style>
     <!-- <link rel="stylesheet" href="css/style.css"> -->
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
