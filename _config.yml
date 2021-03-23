@@ -2,8 +2,41 @@ theme: jekyll-theme-minimal
 
 title: Bất động sản Bcons
 
+description: Bất động sản Bcons
+
 name: Đất cảnh
+
+email: datacanh2020@gmail.com
 
 baseurl: ""
 
 url: "http://www.datacanh.com"
+
+google_analytics: UA-124649839-1
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: 
+  instagram:
+  linkedin:
+  pinterest:
+  rss: 
+  twitter: jekyllrb
+  stackoverflow: 
+  youtube: 
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
