@@ -4,14 +4,95 @@
 	<title>Dat canh</title>
 
 	{% include meta.html %}
+
+	<!-- Site Icons -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css"> -->
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/style.scss">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/_custom.scss">
+	
+	<script src="{{ site.baseurl }}/assets/js/modernizr.custom.79639.js"></script>
     
 </head>
-<body>
+<body class="seo_version">
 
 	{{ content }}
 
 	{% include analytics.html %}
 
+	<!-- ALL JS FILES -->
+    <script src="{{ site.baseurl }}/assets/js/all.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/tippy.all.min.js"></script>
+    <script src="js/custom.js"></script>
+	
+	<script src="js/jquery.ba-cond.min.js"></script>
+	<script src="js/jquery.slitslider.js"></script>
+	<script type="text/javascript">	
+			$(function() {
+			
+				var Page = (function() {
+
+					var $nav = $( '#nav-dots > span' ),
+						slitslider = $( '#slider' ).slitslider( {
+							onBeforeChange : function( slide, pos ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							}
+						} ),
+
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slitslider.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slitslider.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+			
+			});
+		</script>
+		
+		<script>
+			tippy('.btn-a')
+		</script>
 
 </body>
 </html>
