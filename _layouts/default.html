@@ -5,159 +5,288 @@
 
 	{% include meta.html %}
 
-	<link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico" />
+	<link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico" type="image/x-icon" />
 
-	<style>
-		{% include camera.css %}
-		{% include component.css %}
-		{% include tooltipster.css %}
-		{% include style.css %}
-		{% include form.css %}
-		{% include reset.css %}
-		{% include skeleton.css %}
-		{% include superfish.css %}
-		{% include touchTouch.css %}
-	</style>
-    
-    <!--[if lt IE 9]>
-       <div style=' clear: both; text-align:center; position: relative;'>
-         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-         </a>
-      </div>
-      <script src="js/html5shiv.js"></script>
-      {% include ie.css %}
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/style.css" />
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+	
+	<script src="{{ site.baseurl }}/js/modernizr.custom.79639.js"></script>
+
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    
 </head>
-<body>
-	<header>  
-		<div class="container_12">
-		    <div class="grid_12">
-		        <h1>
-			        <a href="index.html">
-			          <img src="{{ site.baseurl }}/assets/images/logo.png" alt="Your Happy Family">
-			        </a>
-		      	</h1>
-		        <div class="menu_block ">
-		          	<nav class="horizontal-nav full-width horizontalNav-notprocessed">
-		            	<ul class="sf-menu">
-			                <li class="current"><a href="index.html">Home</a></li>
-			                <li><a href="index-1.html">Services</a></li>
-			                <li><a href="index-2.html">Gallery</a></li>
-			                <li><a href="index-3.html">Blog</a></li>
-			                <li><a href="index-4.html">Contacts</a></li>
-		               </ul>
-		            </nav>
-		           <div class="clear"></div>
-		        </div>
-		    </div>      
-		</div>
-	</header>
-
-	<div class="container_12">
-	  	<div class="grid_12">
-		    <div class="slider_wrapper ">
-		       	<div class="camera_wrap" id="camera_wrap">
-		            <div data-thumb="{{ site.baseurl }}/assets/images/thumb.png" data-src="{{ site.baseurl }}/assets/images/slide.jpg">
-		                <div class="caption fadeFromBottom">
-		                    Clever interior projects for your home
-		                </div>
-		            </div>
-		            <div data-thumb="{{ site.baseurl }}/assets/images/thumb1.jpg" data-src="{{ site.baseurl }}/assets/images/slide1.jpg">
-		                <div class="caption fadeFromBottom">
-		                    Home improvement ideas for you
-		                </div>
-		            </div>
-		            <div data-thumb="{{ site.baseurl }}/assets/images/thumb2.png" data-src="{{ site.baseurl }}/assets/images/slide2.jpg">
-		                <div class="caption fadeFromBottom">
-		                    Premium design tips
-		                </div>
-		            </div>
-		            <div data-thumb="{{ site.baseurl }}/assets/images/thumb3.png" data-src="{{ site.baseurl }}/assets/images/slide3.jpg">
-		                <div class="caption fadeFromBottom">
-		                  Only creative ideas
-		                </div>
-		            </div>           
-		        </div>
-		    </div>
-	  	</div>
-	</div>
-	<div class="page1_block">
-	  	<div class="container_12">
-		    <div class="grid_12">
-			    <div class="center">
-			        <h2>Welcome!</h2>
-			        CHỈ 500 TRIỆU SỞ HỮU NGAY CĂN HỘ BCONS PLAZA 2PN 2WC, GIỎ HÀNG GIÁ GỐC CĐT, CHIẾT KHẤU NGAY 7.6%
-			        <div class="alright">
-			          <a href="#" class="btn">More</a>
-			        </div>
-			    </div>
+<body class="seo_version">
+	<!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-wrapper">
+			<div class="loader-new">
+				<div class="ball"></div>
+				<div class="ball"></div>
+				<div class="ball"></div>
 			</div>
-	  	</div>
+			<div class="text">LOADING...</div>
+		</div>
 	</div>
+
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo-seo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-seo" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-seo">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item"><a class="nav-link" href="case-study.html">Case Study</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Services </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="services.html">Search Engine Optimization</a>
+								<a class="dropdown-item" href="services.html">Reporting</a>
+								<a class="dropdown-item" href="services.html">Email Marketing</a>
+								<a class="dropdown-item" href="services.html">Website Development</a>
+								<a class="dropdown-item" href="services.html">Social Media Marketing</a>
+								<a class="dropdown-item" href="services.html">Pay Per Click</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+
+	<div id="slider" class="sl-slider-wrapper">
+
+		<div class="sl-slider">
+		
+			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+				<div class="sl-slide-inner">
+					<div class="bg-img bg-img-1"></div>
+					<h2>Best free SEO friendly website</h2>
+					<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
+					<a href="#" class="bttn-new">Started Today</a>
+					</blockquote>
+				</div>
+			</div>
+			
+			<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+				<div class="sl-slide-inner">
+					<div class="bg-img bg-img-2"></div>
+					<h2>Marketing Website</h2>
+					<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
+					<a href="#" class="bttn-new">Started Today</a>
+					</blockquote>
+				</div>
+			</div>
+			
+			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+				<div class="sl-slide-inner">
+					<div class="bg-img bg-img-3"></div>
+					<h2>Search engine, Analytics, Traffic</h2>
+					<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
+					<a href="#" class="bttn-new">Started Today</a>
+					</blockquote>
+				</div>
+			</div>
+			
+			<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+				<div class="sl-slide-inner">
+					<div class="bg-img bg-img-4"></div>
+					<h2>Social Networking</h2>
+					<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
+					<a href="#" class="bttn-new">Started Today</a>
+					</blockquote>
+				</div>
+			</div>
+		</div><!-- /sl-slider -->
+
+		<nav id="nav-dots" class="nav-dots">
+			<span class="nav-dot-current"></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</nav>
+
+	</div><!-- /slider-wrapper -->
 
 	{{ content }}
 
-	<footer>   
-	    <div class="container_12">
-			<div class="grid_12">
-				<div class="socials">
-					<section id="facebook">
-						<a href="#" target="_blank"><span id="fackbook" class="tooltip" title="Link us on Facebook">f</span></a>
-					</section>
-					<section id="twitter">
-						<a href="#" target="_blank"><span id="twitter-default" class="tooltip" title="Follow us on Twitter">t</span></a>
-					</section>      
-					<section id="google">
-						<a href="#" target="_blank"><span id="google-default" class="tooltip" title="Follow us on Google Plus">g<span>+</span></span></a>
-					</section>        
-					<section id="rss">
-						<a href="#" target="_blank"><span id="rss-default" class="tooltip" title="Follow us on Dribble">d</span></a>
-					</section>      
-				</div>
-				<div class="copy">
-				YourHome &copy; 2014  |  <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com  </a>
-				</div>
-			</div>
-	    </div>  
-	</footer>
+	<footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <img src="images/logo-light.png" alt="">
+                        </div>
+                        <p> SEO Mauris pharetra quam ut commodo malesuada. Sed a ornare purus, nec cursus tortor. Integer vehicula felis nec nunc pulvinar efficitur. In et semper odio. Sed laoreet ullamcorper augue, ut mattis metus mattis quis.</p>
+                        <p>Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+				<div class="col-lg-2 col-md-6 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Faq</a></li>
+							<li><a href="#">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <div class="widget clearfix">
+						<div class="widget-title">
+							<h3>Newsletter</h3>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et tincidunt risus, vitae sollicitudin tellus.</p>
+						<div class="news-box">
+							<form action="#" method="post">
+								<div class="form-group">
+									<input class="form-control" placeholder="Email address" type="email">
+									<button type="submit">
+										<svg id="Layer_11" data-name="Layer 11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.19 17.71">
+											<path class="cls-1" d="M311,387.93a.89.89,0,0,0-1.27,1.26l6.44,6.44H295a.89.89,0,0,0-.89.89.9.9,0,0,0,.89.9h21.24l-6.44,6.42a.91.91,0,0,0,0,1.27.89.89,0,0,0,1.27,0l8-8a.87.87,0,0,0,0-1.25Z" transform="translate(-294.08 -387.67)"></path> </svg>
+									</button>
+								</div>
+							</form>
+						</div>
+						
+                        <div class="widget-title">
+                            <h3>Social</h3>
+                        </div>
+                        <ul class="footer-links social-md">
+                            <li><a class="fb btn-a" title="Facebook" data-tippy-animation="scale" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="gi btn-a" title="Github" data-tippy-animation="scale" href="#"><i class="fa fa-github"></i> </a></li>
+                            <li><a class="tw btn-a" title="Twitter" data-tippy-animation="scale" href="#"><i class="fa fa-twitter"></i> </a></li>
+                            <li><a class="dr btn-a" title="Dribbble" data-tippy-animation="scale" href="#"><i class="fa fa-dribbble"></i> </a></li>
+                            <li><a class="pi btn-a" title="Pinterest" data-tippy-animation="scale" href="#"><i class="fa fa-pinterest"></i> </a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+				<div class="col-lg-3 col-md-6 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">info@yoursite.com</a></li>
+                            <li><a href="#">www.yoursite.com</a></li>
+                            <li>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
+                            <li>+61 3 8376 6284</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">GreatSEO</a> Design By : <a href="https://html.design/">html design</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
 	{% include analytics.html %}
 
-	<script src="{{ site.baseurl }}/assets/js/classie.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/thumbnailGridEffects.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/jquery.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/jquery-migrate-1.2.1.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/script.js"></script> 
-	<script src="{{ site.baseurl }}/assets/js/superfish.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/jquery.ui.totop.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/jquery.equalheights.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/jquery.mobilemenu.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/jquery.easing.1.3.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/jquery.tooltipster.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/camera.js"></script>
-	<!--[if (gt IE 9)|!(IE)]><!-->
-	<script src="{{ site.baseurl }}/assets/js/jquery.mobile.customized.min.js"></script>
-	<!--<![endif]-->
-	<script src="{{ site.baseurl }}/assets/js/modernizr.custom.js"></script>
-	<script>
-		$(document).ready(function(){
-		jQuery('#camera_wrap').camera({
-		    loader: 'pie',
-		    pagination: true ,
-		    minHeight: '200',
-		    thumbnails: true,
-		    height: '40.85106382978723%',
-		    caption: true,
-		    navigation: true,
-		    fx: 'mosaic'
-		  });
-		$().UItoTop({ easingType: 'easeOutQuart' });
-		       $('.tooltip').tooltipster();
+	<!-- ALL JS FILES -->
+    <script src="{{ site.baseurl }}/assets/js/all.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="{{ site.baseurl }}/assets/js/tippy.all.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+	
+	<script src="{{ site.baseurl }}/assets/js/jquery.ba-cond.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/jquery.slitslider.js"></script>
+	<script type="text/javascript">	
+			$(function() {
+			
+				var Page = (function() {
 
-		});
-	</script>
+					var $nav = $( '#nav-dots > span' ),
+						slitslider = $( '#slider' ).slitslider( {
+							onBeforeChange : function( slide, pos ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							}
+						} ),
+
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slitslider.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slitslider.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+			
+			});
+		</script>
+		
+		<script>
+			tippy('.btn-a')
+		</script>
+
 </body>
 </html>
