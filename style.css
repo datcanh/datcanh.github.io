@@ -51,7 +51,7 @@
 body {
     color: #333333;
     font-size: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.7;
 }
 
@@ -342,7 +342,7 @@ a img.aligncenter {
   color: rgba(255, 255, 255);
   text-transform: uppercase;
   font-size: 50px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: .5px;
 }
 
