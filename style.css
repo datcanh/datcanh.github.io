@@ -1494,6 +1494,7 @@ button.bttn-new-a:focus {
 
 .message-box p {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .message-box .lead {
