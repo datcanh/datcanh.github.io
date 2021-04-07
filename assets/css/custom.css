@@ -1,7 +1,7 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
 
-telephone-btn {
+.telephone-btn {
     z-index: 100;
     position: fixed;
     bottom: 150px;
@@ -21,12 +21,12 @@ telephone-btn {
     transition: all 0.2s;
 }
 
-telephone-btn:hover{
+.telephone-btn:hover{
     border-color: rgba(255,255,255,1);
 }
 
 @media all and (max-width:30em) {
-    telephone-btn {
+    .telephone-btn {
         display:block;
         margin:0.2em auto;
     }
