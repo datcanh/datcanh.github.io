@@ -4,8 +4,8 @@
 .telephone-btn {
     z-index: 100;
     position: fixed;
-    bottom: 150px;
-    right: 50px;
+    top: 10px;
+    right: 30px;
     display:inline-block;
     padding:0.3em 1.2em;
     margin:0 0.1em 0.1em 0;
@@ -19,6 +19,7 @@
     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
     text-align:center;
     transition: all 0.2s;
+    font-weight: bolder;
 }
 
 .telephone-btn:hover{
