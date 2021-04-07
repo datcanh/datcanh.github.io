@@ -4,7 +4,7 @@
 .telephone-btn {
     z-index: 100;
     position: fixed;
-    top: 10px;
+    top: 150px;
     right: 30px;
     display:inline-block;
     padding:0.3em 1.2em;
@@ -24,6 +24,7 @@
 
 .telephone-btn:hover{
     background-color:#b20000;
+    color:#FFFFFF;
 }
 
 @media all and (max-width:30em) {
