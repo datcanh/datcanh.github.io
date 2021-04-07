@@ -7,6 +7,7 @@
 }
 
 .phonering-alo-ph-circle {
+    z-index: 100;
     position: fixed;
     width:160px;
     height:160px;
@@ -64,6 +65,7 @@
 }
 
 .phonering-alo-ph-circle-fill {
+    z-index: 100;
     position: fixed;
     width:100px;
     height:100px;
@@ -121,6 +123,7 @@
 }
 
 .phonering-alo-ph-img-circle {
+    z-index: 100;
     position: fixed;
     width:60px;
     height:60px;
