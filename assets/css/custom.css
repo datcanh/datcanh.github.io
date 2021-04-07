@@ -23,7 +23,7 @@
 }
 
 .telephone-btn:hover{
-    border-color: rgba(255,255,255,1);
+    background-color:#b20000;
 }
 
 @media all and (max-width:30em) {
