@@ -68,7 +68,7 @@ title: Tin tức
                     </li>
                 {% else %}
                     <li>
-                        <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{count}}</a>
+                        <a href="{{ site.paginate_path | relative_url | replace: ':num', count }}">{{count}}</a>
                     </li>
                 {% endif %}
             {% endfor %}
