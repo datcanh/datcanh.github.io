@@ -38,6 +38,10 @@
 }
 
 /* ------- pagination -------- */
+.pagination-wrapper {
+    text-align: center;
+}
+
 .pagination {
     height: 36px;
 }
