@@ -38,35 +38,41 @@ page-title-large {
     background-image:url(../images/pattern-4.png)
 }
 
-#statements{
+#about-us{
+    display:block; 
+    width:100%; 
+    line-height:1.6em;
+}
+
+#about-us #statements{
     margin-bottom:50px; 
     padding:20px; 
     color:inherit; 
     background-color:#EFEFEF;
 }
 
-#statements .imgl {
+#about-us #statements .imgl {
     background-color:#FFFFFF;
     margin:0;
 }
 
-#statements .fl_right {
+#about-us #statements .fl_right {
     width:75%;
 }
 
-#statements .fl_right blockquote {
+#about-us #statements .fl_right blockquote {
     position:relative; margin:0; 
     padding:20px 0 0 0;
 }
 
-#statements .fl_right blockquote p {
+#about-us #statements .fl_right blockquote p {
     margin:0; padding:0 0 0 60px; 
     font-size:22px; font-style:italic; 
     text-align:justify; 
     line-height:1.6em;
 }
 
-#statements .fl_right blockquote p span {
+#about-us #statements .fl_right blockquote p span {
     position:absolute; 
     top:0; 
     left:10px; 
