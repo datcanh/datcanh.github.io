@@ -38,28 +38,28 @@ title: Tin tức
     <div class="pagination">
         <ul>
             {% if paginator.previous_page %}
-            {% if paginator.previous_page == 1 %}
-            <li>
-                <a href="/">&laquo;</a>
-            </li>
+                {% if paginator.previous_page == 1 %}
+                <li>
+                    <a href="/">&laquo;</a>
+                </li>
+                {% else %}
+                <li>
+                    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+                </li>
+                {% endif %}
             {% else %}
-            <li>
-                <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
-            </li>
-            {% endif %}
-            {% else %}
-            <li class="disabled">
-                <a href="#">&laquo; Prev</a>
-            </li>
+                <li class="disabled">
+                    <a href="#">&laquo; Prev</a>
+                </li>
             {% endif %}
             {% if paginator.page == 1 %}
-            <li class="active">
-                <a href="#">1</a>
-            </li>
+                <li class="active">
+                    <a href="#">1</a>
+                </li>
             {% else %}
-            <li>
-                <a href="/">1</a>
-            </li>
+                <li>
+                    <a href="/">1</a>
+                </li>
             {% endif %}
             {% for count in (2..paginator.total_pages) %}
                 {% if count == paginator.page %}
@@ -73,13 +73,13 @@ title: Tin tức
                 {% endif %}
             {% endfor %}
             {% if paginator.next_page %}
-            <li>
-                <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
-            </li>
+                <li>
+                    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+                </li>
             {% else %}
-            <li class="disabled">
-                <a href="#">Next &raquo;</a>
-            </li>
+                <li class="disabled">
+                    <a href="#">Next &raquo;</a>
+                </li>
             {% endif %}
         </ul>
     </div>
