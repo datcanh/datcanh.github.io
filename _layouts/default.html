@@ -60,7 +60,7 @@
 						<li class="nav-item"><a class="nav-link" href="{% link about/about.html %}">Về chúng tôi</a></li>
 						<li class="nav-item"><a class="nav-link" href="{% link project/project.html %}">Các dự án</a></li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Hoạt động </a>
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Tin tức </a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="services.html">Chung cư</a>
 								<a class="dropdown-item" href="services.html">Nhà đất</a>
@@ -99,12 +99,12 @@
                             <h3>Thông tin</h3>
                         </div>
                         <ul class="footer-links">
-                            <li><a href="#">Trang chủ</a></li>
-                            <li><a href="#">Tin tức</a></li>
-                            <li><a href="#">Bảng giá</a></li>
-							<li><a href="#">Về chúng tôi</a></li>
-							<li><a href="#">Các câu hỏi</a></li>
-							<li><a href="#">Liên hệ</a></li>
+                            <li><a href="{% link index.html %}">Trang chủ</a></li>
+                            <li><a href="{% link project/project.html %}">Tin tức</a></li>
+                            <li><a href="{% link pricing/pricing.html %}">Bảng giá</a></li>
+							<li><a href="{% link about/about.html %}">Về chúng tôi</a></li>
+							<li><a href="{% link contact/contact.html %}">Các câu hỏi</a></li>
+							<li><a href="{% link contact/contact.html %}">Liên hệ</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
