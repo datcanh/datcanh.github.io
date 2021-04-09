@@ -61,13 +61,15 @@ page-title-large {
 }
 
 #about-us #statements .fl_right blockquote {
-    position:relative; margin:0; 
+    position:relative; 
+    margin:0; 
     padding:20px 0 0 0;
 }
 
 #about-us #statements .fl_right blockquote p {
     margin:0; padding:0 0 0 60px; 
-    font-size:22px; font-style:italic; 
+    font-size:22px; 
+    font-style:italic; 
     text-align:justify; 
     line-height:1.6em;
 }
