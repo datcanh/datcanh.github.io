@@ -40,3 +40,11 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+plugin:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+paginate: 5
+paginate_path: "/page:num/"
