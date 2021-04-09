@@ -85,14 +85,14 @@
 }
 
 .pagination a:hover,
-.active a {
+.active-blog a {
     background-color: whiteSmoke;
 }
 
 .disabled a,
 .disabled a:hover,
-.active a,
-.active a:hover {
+.active-blog a,
+.active-blog a:hover {
     color: #999;
     cursor: default;
 }
