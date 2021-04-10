@@ -2234,7 +2234,7 @@ select.mobile-device {
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
+    line-height: 1 !important;
 }
 
 .footer {
@@ -2571,7 +2571,7 @@ body.seo_version .footer-links a:hover{
     color: #999 ;
     margin: 0 ;
     padding: 0 ;
-    line-height: 1 :
+    line-height: 1;
 }
 
 .stat-wrap p {
@@ -2580,7 +2580,7 @@ body.seo_version .footer-links a:hover{
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
