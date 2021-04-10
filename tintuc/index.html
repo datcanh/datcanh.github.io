@@ -25,37 +25,36 @@ title: Tin tức
 <!-- This loops through the paginated posts -->
 <div class="container mt-5 mb-5">
     <ul class="list-unstyled">
-        
-    </ul>
-    {% for post in paginator.posts %}
-        <li class="media">
-            <img class="mr-3" src="http://placehold.it/260x180" alt="Generic placeholder image">
-            <div class="media-body">
-                <h1 class="mt-0 mb-1">{{ post.title }}</h1>
-                <p class="text-justify">
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </p>
+        {% for post in paginator.posts %}
+            <li class="media">
+                <img class="mr-3" src="http://placehold.it/260x180" alt="Generic placeholder image">
+                <div class="media-body">
+                    <h1 class="mt-0 mb-1">{{ post.title }}</h1>
+                    <p class="text-justify">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </p>
 
-                <a class="btn btn-link mt-2 p-0 text-info" href="{{ post.url }}" role="button">Read more</a>
+                    <a class="btn btn-link mt-2 p-0 text-info" href="{{ post.url }}" role="button">Read more</a>
 
-                <div class="mt-3">
-                    <span class="badge badge-secondary">Posted {{ post.date }}</span>
-                    <div class="pull-right">
-                        Tags:
-                        <span class="badge badge-info">alice</span>
-                        <span class="badge badge-info">story</span>
-                        <span class="badge badge-info">blog</span>
-                        <span class="badge badge-info">personal</span>
-                        <span class="badge badge-info">Warning</span>
-                        <span class="badge badge-info">Danger</span>
-                    </div>         
+                    <div class="mt-3">
+                        <span class="badge badge-secondary">Posted {{ post.date }}</span>
+                        <div class="pull-right">
+                            Tags:
+                            <span class="badge badge-info">alice</span>
+                            <span class="badge badge-info">story</span>
+                            <span class="badge badge-info">blog</span>
+                            <span class="badge badge-info">personal</span>
+                            <span class="badge badge-info">Warning</span>
+                            <span class="badge badge-info">Danger</span>
+                        </div>         
+                    </div>
+
                 </div>
+            </li>
 
-            </div>
-        </li>
-
-        <hr class="mb-5">
-    {% endfor %}
+            <hr class="mb-5">
+        {% endfor %}
+    </ul>
 </div>
 
 <!-- Pagination links -->
