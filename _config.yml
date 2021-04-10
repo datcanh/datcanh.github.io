@@ -49,4 +49,4 @@ plugin:
 paginate: 5
 paginate_path: "/tintuc/page:num/"
 
-permalink: /blog/:title/
+permalink: /tintuc/:title/
