@@ -23,15 +23,33 @@ title: Tin tức
 </div><!-- end section -->
 
 <!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p class="author">
-        <span class="date">{{ post.date }}</span>
-    </p>
-    <!-- <div class="content">
-        {{ post.content }}
-    </div> -->
-{% endfor %}
+<div class="container">
+    <ul class="list-unstyled">
+        
+    </ul>
+    {% for post in paginator.posts %}
+        <li class="media">
+            <a href="{{ post.url }}">
+                <img class="mr-3" src="http://placehold.it/260x180" alt="Generic placeholder image">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">{{ post.title }}</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </div>
+            </a>
+            <div>
+                <span class="badge">Posted {{ post.date }}</span>
+                <div class="pull-right">
+                    <span class="label label-default">alice</span>
+                    <span class="label label-primary">story</span>
+                    <span class="label label-success">blog</span>
+                    <span class="label label-info">personal</span>
+                    <span class="label label-warning">Warning</span>
+                    <span class="label label-danger">Danger</span>
+                </div>         
+            </div>
+        </li>
+    {% endfor %}
+</div>
 
 <!-- Pagination links -->
 <div class="pagination-wrapper">
