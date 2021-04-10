@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Author Override"
 author: billy_rick
 modified:
