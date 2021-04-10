@@ -1,0 +1,35 @@
+---
+layout: default
+title: Trang chủ
+---
+
+<div class="all-page-title page-title-large">
+    <!--Page -->
+    <div class="page-info">
+        <div class="container">
+            <div class="inner-container">
+                <ul class="bread-crumb">
+                    <li><a href="{% link index.html %}">Trang chủ</a></li>
+                    <li><i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
+                    <li><span>Tin tức</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--End Page-->
+    <div class="container text-center">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.date | date_to_string}}</p>
+    </div>
+</div><!-- end section -->
+
+<div class="post">
+
+    <header class="post-header">
+        <h1 class="post-title"></h1>
+    </header>
+
+    <article class="post-content">
+        {{ content }}
+    </article>
+</div>
