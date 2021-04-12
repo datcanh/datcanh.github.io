@@ -30,6 +30,8 @@ footer-links:
   youtube: 
   googleplus: # anything in your profile username that comes after plus.google.com/
 
+include: ['_pages']
+
 gems:
   - jekyll-sitemap
   - jekyll-feed
