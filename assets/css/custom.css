@@ -182,6 +182,20 @@
 }
 
 /* Rectangle list for pages */
+.custom-ol {
+    counter-reset: li;
+    /* Initiate a counter */
+    list-style: none;
+    /* Remove default numbering */
+    *list-style: decimal;
+    /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+    margin: 0 0 0 2em;
+}
+
 .rectangle-list a {
     position: relative;
     display: block;
