@@ -32,6 +32,8 @@ footer-links:
 
 include: ['_pages']
 
+timezone: Asia/Ho_Chi_Minh
+
 gems:
   - jekyll-sitemap
   - jekyll-feed
