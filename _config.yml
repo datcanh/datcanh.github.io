@@ -32,10 +32,6 @@ footer-links:
 
 include: ['_pages']
 
-gems:
-  - jekyll-sitemap
-  - jekyll-feed
-
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -47,6 +43,7 @@ plugin:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 paginate: 5
 paginate_path: "/tintuc/page:num/"
