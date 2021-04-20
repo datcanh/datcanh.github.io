@@ -14,7 +14,7 @@ Nhìn lại kết quả hoạt động kinh doanh ở năm 2020, bà Phạm Th�
 
 Hiện tại, Sao Việt là một trong những đơn vị phân phối độc quyền và là đối tác chiến lược của tập đoàn Bcons. Đây là đơn vị phát triển dự án đang tạo được tiếng vang về uy tín và tiềm lực trên thị trường. Theo đó, tính từ năm 2018 đến nay, Sao Việt đã đưa ra thị trường các sản phẩm căn hộ mang thương hiệu Bcons là Bcons Suối Tiên, Bcons Miền Đông, Bcons Garden, Bcons Green View, Bcons Bee, và hiện tại là dự án Bcons Plaza.
 
-![Nhu cầu sống](/assets/images/post_2021_04_06_1.png)
+<img alt="Nhu cầu sống" src="/assets/images/post_2021_04_06_1.png" width="800"/>
 
 Theo kế hoạch phân phối, ngoài tham gia bán hàng dự án khu căn hộ Bcons Plaza quy mô hơn 1.000 căn hộ, trong tháng 5, Sao Việt tiếp tục đưa ra thị trường các sản phẩm căn hộ của dự án có quy mô hơn 500 căn do Bcons phát triển ngay tại trung tâm thành phố Dĩ An, Bình Dương.
 

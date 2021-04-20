@@ -10,7 +10,7 @@ image: /assets/images/post_2020_12_19_1.jpg
 
 **Nhu cầu sống "xanh" tăng cao**
 
-![Nhu cầu sống](/assets/images/post_2020_12_19_1.jpg)
+<img alt="Nhu cầu sống" src="/assets/images/post_2020_12_19_1.jpg" width="800"/>
 
 Cơn lốc bê tông hóa đô thị khiến không khí ngày càng trở nên ô nhiễm, kéo theo nhịp sống cũng trở nên xô bồ hơn trước. Cùng thực trạng khan hiếm đất đai, các hộ gia đình ngày nay không còn nhiều không gian trống, không còn vườn cây và khoảng sân vui chơi của trẻ em. Mảng xanh thưa thớt dần dẫn đến tình trạng ô nhiễm ngày càng tăng cao, con trẻ không có nơi vui chơi, giải trí lành mạnh.
 

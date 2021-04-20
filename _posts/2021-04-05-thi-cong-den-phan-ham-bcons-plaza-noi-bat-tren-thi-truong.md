@@ -10,7 +10,7 @@ image: /assets/images/post_2021_04_05_2.jpg
 
 Trong Công văn số 164/CPN-QLXD ký ngày 31.3, Cục công tác phía Nam (Bộ Xây Dựng) đã nêu rõ rằng, tại thời điểm cơ quan quản lý nhà nước kiểm tra công trình chung cư Quang Phúc Plaza (tên thương mại là Bcons Plaza) thực tế ngày 26.3, công trình đã hoàn thành công tác thi công phần cọc, móng và một phần tầng hầm thứ 2 đúng theo hồ sơ thiết kế đã được thẩm định và phê duyệt. 
 
-![Hình ảnh thi công thực tế tại công trường Bcons Plaza đến ngày 3.4](/assets/images/post_2021_04_05_2.jpg)
+<img alt="Hình ảnh thi công thực tế tại công trường Bcons Plaza đến ngày 3.4" src="/assets/images/post_2021_04_05_2.jpg" width="800"/>
 
 Kết quả nghiệm thu phần móng là tiền đề vững chắc cho Bcons thực hiện tiếp thủ tục xin phép dự án đủ điều kiện ký hợp đồng với khách hàng theo đúng quy định của pháp luật.
 

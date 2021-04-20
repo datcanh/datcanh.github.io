@@ -14,7 +14,7 @@ Theo báo cáo thị trường của Bộ Xây dựng, trong quý IV-2020, giá 
 
 Với đà tăng giá này, nhiều chung cư trước đây thuộc phân khúc bình dân nay đã được xếp vào phân khúc trung cấp. Giá nhà vượt xa khỏi khả năng chi trả của người dân có thu nhập thấp tại các đô thị lớn.
 
-![Giá căn hộ trong năm 2021 được dự đoán vẫn giữ đà tăng. ](/assets/images/post_2021_04_06_2.jpg)
+<img alt="Giá căn hộ trong năm 2021 được dự đoán vẫn giữ đà tăng." src="/assets/images/post_2021_04_06_2.jpg" width="800"/>
 
 Sang đến đầu năm 2021, ghi nhận ba tháng qua tại nhiều địa phương cho thấy đã xảy ra tình trạng sốt đất cục bộ. Trong đó có thể kể đến TP Thủ Đức (TP.HCM), huyện Hớn Quản (Bình Phước), TP Phan Thiết (Bình Thuận), TP Phú Quốc (Kiên Giang)...
 

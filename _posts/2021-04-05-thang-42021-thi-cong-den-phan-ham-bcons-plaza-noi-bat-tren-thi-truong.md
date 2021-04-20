@@ -34,7 +34,7 @@ Mật độ xây dựng 4 tháp nhà cao tầng tại dự án chiếm chưa t�
 
 Ngoài thiết kế ưu Việt, Bcons Plaza còn được đánh giá rằng sở hữu thêm điểm cộng về không gian xanh, vị trí và tiện ích. Thêm vào đó, một yếu tố khiến dự án nổi bật nữa là dù vị trí cách thành phố Thủ Đức chỉ vài phút di chuyển, Bcons Plaza lại có mức giá nhẹ hơn rất nhiều nên đang nhận được sự quan tâm của đông đảo khách hàng.
 
-![Bcons Plaza có vị trí sáng giá, tiềm năng giá trị cao](/assets/images/post_2021_04_05_1_2.jpg){ width: 100%; }
+<img alt="Bcons Plaza có vị trí sáng giá, tiềm năng giá trị cao" src="/assets/images/post_2021_04_05_1_2.jpg" width="800"/>
 
 Giá cả được đánh giá rất hợp lý, khi giá 1 căn hộ chỉ trên dưới 1,5 tỷ đồng/căn 2 phòng ngủ. Mức giá này cho thấy, Bcons Plaza đang đem đến cơ hội cho mọi người sở hữu chốn an cư cũng như tạo lập tài sản sỡ hữu lâu dài.
 

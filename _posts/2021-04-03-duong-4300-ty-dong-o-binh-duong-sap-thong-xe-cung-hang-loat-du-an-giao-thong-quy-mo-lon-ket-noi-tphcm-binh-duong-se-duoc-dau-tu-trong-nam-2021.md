@@ -9,7 +9,7 @@ tags: []
 
 ## **Dự kiến vào tháng 4/2021, tuyến đường Mỹ Phước - Tân Vạn đi qua địa bàn thị xã Bến Cát, Bình Dương sẽ được tổ chức thông xe. Cùng với đó, Quốc lộ 13 và đường đoạn đoạn từ cầu Bình Triệu đến ngã tư Bình Phước cũng chuẩn bị đợc xây dựng trong năm nay.**
 
-![Tuyến đường Mỹ Phước - Tân Vạn](/assets/images/post_2021_04_03_1.jpg)
+<img alt="Tuyến đường Mỹ Phước - Tân Vạn" src="/assets/images/post_2021_04_03_1.jpg" width="800"/>
 
 Thông tin tuyến đường 4.300 tỷ đồng Mỹ Phước - Tân Vạn dài 62 km với 10 làn đang hoàn thiện và sắp đưa vào sử dụng đang làm cho thị trường nhà đất vùng giáp ranh TPHCM thêm nhiều tia hy vọng tăng trưởng tốt trong thời gian tới. Không dừng lại ở đó, qua tìm hiểu được biết, trong năm 2021 này, nhiều dự án giao thông quy mô lớn liên kết vùng, góp phần tạo ra mạng lưới hạ tầng kết nối TPHCM - Bình Dương - Đồng Nai thuận lợi hơn sẽ được đầu tư xây dựng mới hoặc nâng cấp và mở rộng lên nhiều làn xe.
 
