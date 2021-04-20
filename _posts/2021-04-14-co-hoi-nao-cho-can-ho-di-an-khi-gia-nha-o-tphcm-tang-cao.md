@@ -24,7 +24,7 @@ Nếu tính khoảng cách từ trung tâm hành chính Dĩ An đến TP.HCM hi�
 
 Mục tiêu của chính quyền Dĩ An càng thuận lợi hơn khi các doanh nghiệp bất động sản cũng đã ngắm và chọn địa phương là điểm đến trong kế hoạch phát triển kinh doanh. Thậm chí, có đơn vị còn chọn Dĩ An để mở lối đi vào thị trường bất động sản và có thể kể đến như tập đoàn Bcons. Chỉ trong 3 năm qua, Bcons đã đưa ra thị trường 6 dự án khu căn hộ gồm Bcons Suối Tiên, Bcons Miền Đông, Bcons Garden, Bcons Green View, Bcons Bee và hiện tại là Bcons Plaza.
 
-![Không gian sống xanh tại dự án Bcons Plaza do Bcons phát triển](/assets/images/post_2021_04_14_1.jpg)
+<img alt="Không gian sống xanh tại dự án Bcons Plaza do Bcons phát triển" src="/assets/images/post_2021_04_14_1.jpg" max-width="800"></img>
 
 Theo kế hoạch, trong tháng 5.2021, Bcons tiếp tục đưa ra thị trường thêm dự án khu căn hộ thứ 7 với hơn 500 căn hộ ở có vị trí tiện cho an cư dài lâu khi tọa lạc ngay trung tâm hành chính Dĩ An.
 
