@@ -2,12 +2,12 @@
 layout: post
 title: "Đường 4.300 tỷ đồng ở Bình Dương sắp thông xe cùng hàng loạt dự án giao thông quy mô lớn kết nối TPHCM - Bình Dương sẽ được đầu tư trong năm 2021"
 author: Phong Tran
-modified:
+image: /assets/images/post_2021_04_03_1.jpg
 excerpt: "Dự kiến vào tháng 4/2021, tuyến đường Mỹ Phước - Tân Vạn đi qua địa bàn thị xã Bến Cát, Bình Dương sẽ được tổ chức thông xe. Cùng với đó, Quốc lộ 13 và đường đoạn đoạn từ cầu Bình Triệu đến ngã tư Bình Phước cũng chuẩn bị đợc xây dựng trong năm nay."
 tags: []
 ---
 
-**Dự kiến vào tháng 4/2021, tuyến đường Mỹ Phước - Tân Vạn đi qua địa bàn thị xã Bến Cát, Bình Dương sẽ được tổ chức thông xe. Cùng với đó, Quốc lộ 13 và đường đoạn đoạn từ cầu Bình Triệu đến ngã tư Bình Phước cũng chuẩn bị đợc xây dựng trong năm nay.**
+## **Dự kiến vào tháng 4/2021, tuyến đường Mỹ Phước - Tân Vạn đi qua địa bàn thị xã Bến Cát, Bình Dương sẽ được tổ chức thông xe. Cùng với đó, Quốc lộ 13 và đường đoạn đoạn từ cầu Bình Triệu đến ngã tư Bình Phước cũng chuẩn bị đợc xây dựng trong năm nay.**
 
 ![Tuyến đường Mỹ Phước - Tân Vạn](/assets/images/post_2021_04_03_1.jpg){ width: 100%; }
 
