@@ -1,5 +1,10 @@
 /** ADD YOUR AWESOME CODES HERE **/
 
+.height-news-image {
+    height: 315px;
+}
+
+/* telephone */
 .telephone-btn {
     z-index: 100;
     position: fixed;
