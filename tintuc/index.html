@@ -42,12 +42,9 @@ title: Tin tức
                                 <span class="badge badge-secondary">Posted {{ post.date | date_to_string }}</span>
                                 <div class="pull-right">
                                     Tags:
-                                    <span class="badge badge-info">alice</span>
-                                    <span class="badge badge-info">story</span>
-                                    <span class="badge badge-info">blog</span>
-                                    <span class="badge badge-info">personal</span>
-                                    <span class="badge badge-info">Warning</span>
-                                    <span class="badge badge-info">Danger</span>
+                                    {% for tag in post.tags %}
+                                        <span class="badge badge-info">tag</span>
+                                    {% endfor %}
                                 </div>         
                             </div>
         
@@ -91,12 +88,12 @@ title: Tin tức
 
             <div class="sidebar widget mt-5">
                 <h3 class="recent-post">Tags</h3>
-                <span class="badge badge-info">alice</span>
-                <span class="badge badge-info">story</span>
-                <span class="badge badge-info">blog</span>
-                <span class="badge badge-info">personal</span>
-                <span class="badge badge-info">Warning</span>
-                <span class="badge badge-info">Danger</span>
+                <span class="badge badge-info">bcons</span>
+                <span class="badge badge-info">bcons plaza</span>
+                <span class="badge badge-info">plaza</span>
+                <span class="badge badge-info">đất nền dĩ an</span>
+                <span class="badge badge-info">nhà phố dĩ an</span>
+                <span class="badge badge-info">bcons sala</span>
             </div>
 
             <div class="sidebar widget mt-5">
@@ -104,13 +101,13 @@ title: Tin tức
                 <ul>
                     <li>
                         <div class="sidebar-thumb">
-                            <img class="animated rollIn" src="http://shop.spotlayer.com/demo/soft-mag/demo1/wp-content/uploads/16555399183_33b1b1bc26_o-90x75.jpg" alt="" />
+                            <img class="animated rollIn" src="/assets/images/post_2021_04_14_1.jpg" alt="" />
                         </div><!-- .Sidebar-thumb -->
                         <div class="sidebar-content">
-                            <h5 class="animated bounceInRight"><a href="#">The Complete Guide to Medium for Marketers</a></h5>
+                            <h5 class="animated bounceInRight"><a href="{ post_url 2021-04-14-co-hoi-nao-cho-can-ho-di-an-khi-gia-nha-o-tphcm-tang-cao.md }">Cơ hội nào cho căn hộ Dĩ An, khi giá nhà ở TP.HCM tăng cao?</a></h5>
                         </div><!-- .Sidebar-thumb -->
                         <div class="sidebar-meta">
-                            <span class="time" ><i class="fa fa-clock-o"></i> Aug 27, 2015</span>
+                            <span class="time" ><i class="fa fa-clock-o"></i> Apr 14, 2021</span>
                         </div><!-- .Sidebar-meta ends here -->
                     </li><!-- .Li ends here -->
                     <li>

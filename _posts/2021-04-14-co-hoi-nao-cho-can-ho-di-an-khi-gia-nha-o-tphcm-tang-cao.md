@@ -3,7 +3,7 @@ layout: post
 title: "Cơ hội nào cho căn hộ Dĩ An, khi giá nhà ở TP.HCM tăng cao?"
 excerpt: "Xu hướng người mua nhà tìm kiếm các dự án gần TP.HCM. Vì vậy, Dĩ An vốn sở hữu nhiều ưu thế về vị trí kết nối và có nguồn cung căn hộ vừa túi tiền nên sẽ vẫn là tâm điểm thanh khoản của thị trường."
 image: /assets/images/post_2021_04_14_1.jpg
-tags: [sample post, link post]
+tags: ['bcons', 'bcons plaza', 'plaza', 'đất nền dĩ an']
 ---
 
 ## **Xu hướng người mua nhà tìm kiếm các dự án gần TP.HCM. Vì vậy, Dĩ An vốn sở hữu nhiều ưu thế về vị trí kết nối và có nguồn cung căn hộ vừa túi tiền nên sẽ vẫn là tâm điểm thanh khoản của thị trường.**

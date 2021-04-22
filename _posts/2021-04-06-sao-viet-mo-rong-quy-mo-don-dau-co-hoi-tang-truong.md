@@ -2,7 +2,7 @@
 layout: post
 title: "Sao Việt mở rộng quy mô đón đầu cơ hội tăng trưởng"
 excerpt: "Sao Việt triển khai nhiều kế hoạch đầu tư và phát triển quy mô để đáp ứng hoạt động kinh doanh được dự báo tăng trưởng mạnh trong năm 2021."
-tags: [sample post, images, test]
+tags: ['bcons', 'sao viet', 'bcons sala']
 image: /assets/images/post_2021_04_06_1.png
 ---
 
