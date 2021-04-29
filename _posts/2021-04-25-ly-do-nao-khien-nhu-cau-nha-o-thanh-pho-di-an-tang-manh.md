@@ -14,7 +14,7 @@ Theo dữ liệu thống kê của cơ quan quản lý, trong giai đoạn 2015-
 
 Tính đến năm 2020, cơ cấu kinh tế của Dĩ An đang có tỷ trọng thương mại – dịch vụ chiếm 55,12%, công nghiệp chiếm 44,87% và nông nghiệp chiếm rất ít, chỉ 0,01%.
 
-<img alt="Nhu cầu sống" src="/assets/images/post_2021_04_25_1" width="800"/>
+<img alt="Nhu cầu sống" src="/assets/images/post_2021_04_25_1.jpg" width="800"/>
 
 Để phát huy tiềm lực, Dĩ An đưa ra mục tiêu xây dựng thành phố phát triển bền vững theo hướng văn minh, hiện đại với cơ cấu kinh tế tập trung vào 3 lĩnh vực lớn đó là thương mại - dịch vụ, công nghiệp và nông nghiệp. Trong đó, thương mại - dịch vụ là lĩnh vực sẽ được chú trọng phát triển mạnh, tiếp đó là công nghiệp. 
 
